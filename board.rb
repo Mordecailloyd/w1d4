@@ -37,7 +37,6 @@ class Board
   end
 
   def render
-    byebug
     puts "  #{(0..8).to_a.join(" ")}"
     grid.each_with_index do |row, i|
       puts "#{i} #{row.join(" ")}"
